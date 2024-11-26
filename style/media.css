@@ -1,0 +1,17 @@
+@media screen and (max-width: 992px){
+    .cards__bloc {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        justify-content: center;
+      }
+
+    .bloc1 {
+        height: 100%;
+        grid-column: 1/2;
+        grid-row: 1/3;
+        position: relative;
+        transition: all 0.1s linear;
+      }
+}
